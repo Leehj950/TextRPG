@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lee\\TextRPG\\TextRPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|c:\\users\\lee\\textrpg\\textrpg\\textrpg\\satus_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\satus_window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|c:\\users\\lee\\textrpg\\textrpg\\textrpg\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|c:\\users\\lee\\textrpg\\textrpg\\textrpg\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\mainscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|c:\\users\\lee\\textrpg\\textrpg\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|c:\\users\\lee\\textrpg\\textrpg\\textrpg\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|c:\\users\\lee\\textrpg\\textrpg\\textrpg\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64646FB-4739-4E8B-BBA2-E369420918BA}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Shop.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Shop.cs",
+              "ToolTip": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Shop.cs",
+              "RelativeToolTip": "TextRPG\\Shop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T00:08:23.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Node.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Node.cs",
+              "ToolTip": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Node.cs",
+              "RelativeToolTip": "TextRPG\\Node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:39:33.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Inventory.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Inventory.cs",
+              "ToolTip": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Inventory.cs",
+              "RelativeToolTip": "TextRPG\\Inventory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:28:15.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Satus_Window.cs",
+              "DocumentMoniker": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Satus_Window.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Satus_Window.cs",
+              "ToolTip": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Satus_Window.cs",
+              "RelativeToolTip": "TextRPG\\Satus_Window.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:58:59.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainScene.cs",
+              "DocumentMoniker": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\MainScene.cs",
+              "RelativeDocumentMoniker": "TextRPG\\MainScene.cs",
+              "ToolTip": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\MainScene.cs",
+              "RelativeToolTip": "TextRPG\\MainScene.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:55:02.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Program.cs",
+              "RelativeDocumentMoniker": "TextRPG\\Program.cs",
+              "ToolTip": "C:\\Users\\lee\\TextRPG\\TextRPG\\TextRPG\\Program.cs",
+              "RelativeToolTip": "TextRPG\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:54:34.988Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
