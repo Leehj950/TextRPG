@@ -1,22 +1,19 @@
-﻿namespace TextRPG
+﻿using TextRPG.Scene;
+
+namespace TextRPG
 {
     internal class EntryPoint
     {
-        List<int> items = new List<int>();
-        
-        public EntryPoint() 
-        {
-            items.Add(0);
-        }
         static void Main(string[] args)
         {
+            bool misLoop = false;
             MainScene Ms = new MainScene();
             Ms.Initialize();
-            while(true)
+            while(!misLoop)
             {
                 Ms.Loop();
+                misLoop = Ms.IsLoop;
             }
         }
-
     }
 }

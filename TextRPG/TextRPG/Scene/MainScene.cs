@@ -4,62 +4,77 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TextRPG.Contents;
 using TextRPG.Interface;
+using TextRPG.PlayerInfomation;
 
-namespace TextRPG
+namespace TextRPG.Scene
 {
     internal class MainScene : IFramework
     {
-        Satus_Window Sw;
-        Inventory In;
-        Shop Sh;
-
+        /// <summary>
+        /// value 
+        /// </summary>
+        //////////////////////////////////////////////////////////////////////
+        Shop mShop;
+        Player mplayer;
         bool isRender;
-        bool isLoop;
-        public MainScene() 
+        bool misLoop;
+        /// <summary>
+        /// Get,Set 
+        /// </summary>
+        //////////////////////////////////////////////////////////////////////
+        public bool IsLoop { get { return misLoop; } }
+        /// <summary>
+        /// 생성자
+        /// </summary>
+        ////////////////////////////////////////////////////////////////////// 
+        public MainScene()
         {
-            Sw = new Satus_Window();
-            In = new Inventory();
-            Sh = new Shop();
+            mplayer = new Player();
+            mShop = new Shop();
             isRender = false;
-            isLoop = true;
         }
-
+        /// <summary>
+        /// Function
+        /// </summary>
+        //////////////////////////////////////////////////////////////////////
         // Awake onEnable Start 초기화 
         public void Initialize()
         {
-            MainTxt();
-            Sh.Initialize();
-            Sh.Gold = Sw.Gold;
-            Sh.keyValues_in = In.keyValues;
+            mShop.Initialize();
+            mplayer.Initialize();
+            mShop.Gold = mplayer.PlayerInfo.Gold;
+            mShop.keyValues_in = mplayer.Inventory.keyValues;
         }
         // 연산
         public void Update()
         {
             //렌더러 아직 한번도 안돌았으면
-            if(isRender == false )
+            if (isRender == false)
             {
                 isRender = true;
                 return;
             }
-
+            // 행동할 것을 입력받기
             int input = IsChecking(Console.ReadLine());
 
+            // 입력값 스위칭문에서 찾기
             switch (input)
             {
                 case 0:
-
+                    misLoop = true;
                     break;
                 case 1:
-                    Sw.Gold = Sh.Gold;
-                    Sw.Statuc_Window();
+                    mplayer.PlayerInfo.Gold = mShop.Gold;
+                    mplayer.StatusWindowLoop();
                     break;
                 case 2:
-                    In.keyValues = Sh.keyValues_in;
-                    In.InventoryTxt();
+                    mplayer.Inventory.keyValues = mShop.keyValues_in;
+                    mplayer.InventoryLoop();
                     break;
                 case 3:
-                    Sh.OpenShop();
+                    mShop.Loop();
                     break;
             }
         }
@@ -68,12 +83,13 @@ namespace TextRPG
         {
             MainTxt();
         }
-
+        // 무한루프
         public void Loop()
         {
             Update();
             Render();
         }
+        // 체크리스트 is가 붙은 이유는 안에서bool형태 연산을 하고 출력한것은 정수형이다.
         int IsChecking(string value)
         {
             int temp = 0;
@@ -88,10 +104,10 @@ namespace TextRPG
                 else
                 {
                     Console.WriteLine("올바른 숫자값이 아닙니다.");
-                    return -1;
+                    temp = -1;
                 }
 
-                if (temp < 0 && temp > 3)
+                if (temp < 0 && temp > 4)
                 {
                     Console.Write("잘못된 입력입니다 : ");
                     temp = IsChecking(Console.ReadLine());
@@ -108,6 +124,7 @@ namespace TextRPG
             Console.WriteLine("1. 상태 보기");
             Console.WriteLine("2. 인벤토리 ");
             Console.WriteLine("3. 상점");
+            Console.WriteLine("0. 게임종료");
             Console.WriteLine();
             Console.WriteLine("원하시는 행동을 입력해주세요.");
         }

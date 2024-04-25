@@ -18,7 +18,7 @@ namespace TextRPG.Parentclass
         protected bool misSoldOut = false;
         protected bool misEquip = false;
         protected bool misBuy = false;
-        
+
         // 변경 없는 것들 
         protected string msoldOut = "구매완료";
         protected string mEquip = "[E]";
@@ -40,8 +40,7 @@ namespace TextRPG.Parentclass
         public string SoldOut { get { return msoldOut; } }
         public string Equip { get { return mEquip; } }
         public bool IsEquip { get { return misEquip; } set { misEquip = value; } }
-        public bool IsBuy { get { return misBuy; } set { misBuy = value; } }
-        
+        public bool IsBuy { get { return misBuy; } set { misBuy = value; } } 
         public bool IsSoldOut { get { return misSoldOut; } set { misSoldOut = value; } }
 
         //무기만 
