@@ -72,7 +72,7 @@ namespace TextRPG.PlayerInfomation
 
                         if (itemDictionary[itemnum] is Armor)
                         {
-               
+                            //아머로 다운캐스팅 
                             Armor armor = (Armor)itemDictionary[itemnum];
                             mplayrerInfo.SubTotalGuardPoint -= armor.GuardPoint;
                             mplayrerInfo.TotalGuardPoint = mplayrerInfo.GuardPoint - mplayrerInfo.SubTotalGuardPoint;
@@ -82,11 +82,12 @@ namespace TextRPG.PlayerInfomation
                             }
                             else
                             {
-                                mplayrerInfo.SubHitPoint_Str = "";
+                                mplayrerInfo.SubGuardPoint_Str = "";
                             }
                         }
                         else if (itemDictionary[itemnum] is Weapon)
                         {
+                            //무기로 다운캐스팅 
                             Weapon weapon = (Weapon)itemDictionary[itemnum];
                             mplayrerInfo.SubTotalHitPoint -= weapon.HitPoint;
                             mplayrerInfo.TotalHitPoint = mplayrerInfo.HitPoint - mplayrerInfo.TotalHitPoint;
